@@ -9,6 +9,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { cn } from '@/lib/utils'
 
 import './globals.css'
+import { Toaster } from '@/components/ui/toaster'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -34,6 +35,7 @@ export default function RootLayout({
               disableTransitionOnChange
             >
             {children}
+            <Toaster />
             </ThemeProvider>
         </body>
       </html>
