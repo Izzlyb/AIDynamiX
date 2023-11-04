@@ -49,5 +49,5 @@ const ChatIdPage = async ({
     <ChatClient companion={companion} />
   );
 }
- 
+
 export default ChatIdPage;
